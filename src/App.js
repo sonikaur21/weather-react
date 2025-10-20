@@ -1,4 +1,3 @@
-import WeatherSearch from "./WeatherSearch";
 import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
 
