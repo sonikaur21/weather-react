@@ -7,15 +7,15 @@ export default function App() {
         <WeatherSearch />
       </h2>{" "}
       <footer>
-        This project was coded by
+        This project was coded by{" "}
         <a href="https://github.com/sonikaur21" target="_blank">
           Sonia Kaur
-        </a>
-        is
+        </a>{" "}
+        is{" "}
         <a href="https://github.com/sonikaur21/weather-react" target="_blank">
           open-sourced on GitHub
-        </a>
-        " " and " "
+        </a>{" "}
+        and{" "}
         <a href="https://weatherreactprojectsonia.netlify.app/" target="_blank">
           hosted on Netlify
         </a>
