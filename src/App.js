@@ -12,17 +12,26 @@ export default function App() {
         </h2>{" "}
         <footer>
           This project was coded by{" "}
-          <a href="https://github.com/sonikaur21" target="_blank">
+          <a
+            href="https://github.com/sonikaur21"
+            target="_blank"
+            rel="noreferrer"
+          >
             Sonia Kaur
           </a>{" "}
           is{" "}
-          <a href="https://github.com/sonikaur21/weather-react" target="_blank">
+          <a
+            href="https://github.com/sonikaur21/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced on GitHub
           </a>{" "}
           and{" "}
           <a
             href="https://weatherreactprojectsonia.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             hosted on Netlify
           </a>
