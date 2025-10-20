@@ -45,6 +45,13 @@ export default function WeatherSearch() {
           <li>
             <img src={weather.icon} alt="weathericon" />
           </li>
+          <li>Monday: 10f</li>
+          <li>Tuesday: 10f</li>
+          <li>Wednesday: 15f</li>
+          <li>Thursday: 10f</li>
+          <li>Friday: 10f</li>
+          <li>Saturday: 10f</li>
+          <li>Sunday: 10f</li>
         </ul>
       </div>
     );
