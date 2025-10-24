@@ -22,7 +22,7 @@ export default function Weather(props) {
     });
   }
   function search() {
-    const apiKey = "73a00877081bd43422bdee0f3022beb5";
+    const apiKey = "79e2b848de54da3deo0aafeff8t7fa08";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -58,8 +58,6 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
-        <h1>hello</h1>
-        <h1>hello</h1>
       </div>
     );
   } else {
