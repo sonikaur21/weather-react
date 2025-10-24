@@ -35,7 +35,11 @@ export default function WeatherForecast(props) {
               return (
                 <div className="col" key={index}>
                   {" "}
-                  <WeatherForecastDay data={dailyForecast} />{" "}
+                  <WeatherForecastDay
+                    key={index}
+                    data={dailyForecast}
+                    unit={props.unit}
+                  />{" "}
                 </div>
               );
             } else {
