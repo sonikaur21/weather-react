@@ -1,6 +1,12 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+  background-color: blue;
+  border-radius: 8px;
+  padding: 20px;
+}
+body {
+  background-color: blue;
 }
 .App footer {
   font-size: 11px;
