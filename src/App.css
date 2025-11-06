@@ -1,14 +1,22 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
-  background-color: blue;
+  background-color: #f5f9ee;
   border-radius: 8px;
   padding: 20px;
 }
 body {
-  background-color: blue;
+  background-color: #eef2e2 !important;
+  margin: 0;
+  padding: 0;
+}
+.App h1 {
+  color: #f8da5b;
 }
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+}
+.App footer a {
+  color: #247291;
 }

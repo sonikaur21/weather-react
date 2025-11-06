@@ -43,3 +43,11 @@
   line-height: 1;
   top: -34px;
 }
+.Weather form .row {
+  align-items: center;
+}
+
+.Weather form input[type="search"],
+.Weather form input[type="submit"] {
+  height: 38px;
+}

@@ -56,6 +56,11 @@ export default function Weather(props) {
                 type="submit"
                 value="Search"
                 className="btn btn-primary w-100"
+                style={{
+                  backgroundColor: "#247291",
+                  color: "white",
+                  borderColor: "#247291",
+                }}
               />
             </div>
           </div>
