@@ -15,7 +15,8 @@ body {
 }
 .App footer {
   font-size: 11px;
-  margin: 10px 0;
+  text-align: center;
+  margin-top: 20px;
 }
 .App footer a {
   color: #247291;
