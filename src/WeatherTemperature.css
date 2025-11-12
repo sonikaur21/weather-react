@@ -5,9 +5,9 @@
 
 @media (max-width: 500px) {
   .WeatherTemperature .unit {
-    font-size: 10px;
+    font-size: 8px;
   }
   .WeatherTemperature .unit a {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
