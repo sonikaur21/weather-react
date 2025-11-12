@@ -2,3 +2,27 @@
   color: #247291;
   text-decoration: none;
 }
+.WeatherTemperature {
+  display: flex;
+  align-items: flex-start;
+}
+
+.temperature {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.unit {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+@media (max-width: 400px) {
+  .temperature {
+    font-size: 38px;
+  }
+
+  .unit {
+    font-size: 10px;
+  }
+}
