@@ -56,4 +56,8 @@
   .Weather .temperature {
     font-size: 45px;
   }
+  .Weather form input[type="search"],
+  .Weather form input[type="submit"] {
+    height: 18px;
+  }
 }
