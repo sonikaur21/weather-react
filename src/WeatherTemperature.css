@@ -2,3 +2,12 @@
   color: #247291;
   text-decoration: none;
 }
+
+@media (max-width: 500px) {
+  .WeatherTemperature .unit {
+    font-size: 10px;
+  }
+  .WeatherTemperature .unit a {
+    font-size: 10px;
+  }
+}

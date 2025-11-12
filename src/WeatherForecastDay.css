@@ -1,11 +1,5 @@
-.forecast-icon canvas {
-  width: 36px !important;
-  height: 36px !important;
-}
-
 @media (max-width: 500px) {
-  .forecast-icon canvas {
-    width: 10px !important;
-    height: 10px !important;
+  .weatherForecast-temperatures {
+    font-size: 15px;
   }
 }
